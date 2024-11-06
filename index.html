@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home Page</title>
 </head>
+
 <body>
   <header>
     <img src="google.svg" alt="Brand Logo">
@@ -20,12 +22,12 @@
   </header>
 
   <main>
-    <section aria-label="introduction">
+    <section>
       <h1>Software Developer</h1>
       <p>Web page developer</p>
     </section>
 
-    <section aria-label="projects">
+    <section>
       <h2>Projects</h2>
       <ul>
         <li>Tech Blog</li>
@@ -35,7 +37,7 @@
       </ul>
     </section>
 
-    <section aria-label="work experience">
+    <section>
       <h2>Work Experience</h2>
 
       <article>
@@ -49,19 +51,27 @@
       </article>
     </section>
 
-    <section aria-label="education">
+    <section>
       <h2>Education</h2>
       <p>I graduated with a degree in Systems Analysis and Development, gaining a strong foundation in software development, database management, systems design, and problem-solving techniques. My studies focused on full-stack development, programming languages, and methodologies like Agile and Scrum.</p>
     </section>
 
     <aside aria-labelledby="reviews">
       <h2 id="reviews">Reviews from my teachers</h2>
-
+      <blockquote cite="Smith">
+        <p>"An outstanding student with strong technical skills."</p>
+        <footer>- Professor Smith</footer>
+      </blockquote>
+      <blockquote cite="Johnson">
+        <p>"Consistently delivers high-quality work on time."</p>
+        <footer>- Professor Johnson</footer>
+      </blockquote>
     </aside>
   </main>
 
   <footer>
-    <p>&copy; <a href="https://github.com/gilecampos" target="_blank">Create at G. Campos.</a></p>
+    <p>&copy; <a href="https://github.com/gilecampos" target="_blank" aria-label="Link to github">Create at G. Campos.</a></p>
   </footer>
 </body>
+
 </html>
